@@ -16,11 +16,11 @@
   "homepage": "https://github.com/dustprotocol/dust.js",
   "dependencies": {
     "@babel/runtime": "^7.10.2",
+    "@dust-defi/api-derive": "^1.1.0",
+    "@dust-defi/types": "^1.1.0",
     "@open-web3/orml-api-derive": "^1.0.1",
     "@polkadot/api": "~6.4.2",
-    "@polkadot/rpc-core": "~6.4.2",
-    "@dust-defi/api-derive": "^1.1.0",
-    "@dust-defi/types": "^1.1.0"
+    "@polkadot/rpc-core": "~6.4.2"
   },
   "peerDependencies": {
     "@polkadot/api": "~6.4.2",

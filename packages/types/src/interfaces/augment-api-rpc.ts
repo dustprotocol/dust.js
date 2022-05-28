@@ -1,6 +1,8 @@
 // Auto-generated via `yarn polkadot-types-from-chain`, do not edit
 /* eslint-disable */
 
+import type { CallRequest, EstimateResourcesResponse } from '@dust-defi/types/interfaces/evm';
+import type { AccountId, BlockNumber, H160, H256, H64, Hash, Header, Index, Justification, KeyValue, OracleKey, SignedBlock, StorageData } from '@dust-defi/types/interfaces/runtime';
 import type { RpcDataProviderId, TimestampedValue } from '@open-web3/orml-types/interfaces/oracle';
 import type { Bytes, HashMap, Json, Metadata, Null, Option, Raw, StorageKey, Text, U256, U64, Vec, bool, u128, u32, u64 } from '@polkadot/types';
 import type { ExtrinsicOrHash, ExtrinsicStatus } from '@polkadot/types/interfaces/author';
@@ -21,8 +23,6 @@ import type { RpcMethods } from '@polkadot/types/interfaces/rpc';
 import type { ReadProof, RuntimeVersion, TraceBlockResponse } from '@polkadot/types/interfaces/state';
 import type { ApplyExtrinsicResult, ChainProperties, ChainType, Health, NetworkState, NodeRole, PeerInfo, SyncState } from '@polkadot/types/interfaces/system';
 import type { AnyNumber, Codec, IExtrinsic, ITuple, Observable } from '@polkadot/types/types';
-import type { CallRequest, EstimateResourcesResponse } from '@dust-defi/types/interfaces/evm';
-import type { AccountId, BlockNumber, H160, H256, H64, Hash, Header, Index, Justification, KeyValue, OracleKey, SignedBlock, StorageData } from '@dust-defi/types/interfaces/runtime';
 
 declare module '@polkadot/rpc-core/types.jsonrpc' {
   export interface RpcInterface {

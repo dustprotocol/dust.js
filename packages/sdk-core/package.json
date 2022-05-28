@@ -15,10 +15,10 @@
   },
   "homepage": "https://github.com/dustprotocol/dust.js",
   "dependencies": {
-    "@polkadot/api": "~6.4.2",
-    "@polkadot/types": "~6.4.2",
     "@dust-defi/api": "^1.1.0",
     "@dust-defi/type-definitions": "^1.1.0",
+    "@polkadot/api": "~6.4.2",
+    "@polkadot/types": "~6.4.2",
     "@types/events": "^3.0.0",
     "bignumber.js": "^9.0.0",
     "events": "^3.2.0",

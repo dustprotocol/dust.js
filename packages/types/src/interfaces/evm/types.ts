@@ -1,8 +1,8 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
-import type { Bytes, Option, Struct, U128, bool, i32, u256, u32 } from '@polkadot/types';
 import type { Balance, H160, H256, Index } from '@dust-defi/types/interfaces/runtime';
+import type { Bytes, Option, Struct, U128, bool, i32, u256, u32 } from '@polkadot/types';
 
 /** @name CallRequest */
 export interface CallRequest extends Struct {

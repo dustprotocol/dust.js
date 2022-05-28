@@ -1,9 +1,9 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
+import type { EvmAddress } from '@dust-defi/types/interfaces/evm';
 import type { Enum, i128, u128, u32 } from '@polkadot/types';
 import type { ITuple } from '@polkadot/types/types';
-import type { EvmAddress } from '@dust-defi/types/interfaces/evm';
 
 /** @name Amount */
 export interface Amount extends i128 {}
