@@ -1,6 +1,6 @@
 {
   "name": "@dust-defi/sdk-core",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "the core of Dust Chain SDK",
   "main": "index.js",
   "author": "Reef Developers",
@@ -15,8 +15,8 @@
   },
   "homepage": "https://github.com/dustprotocol/dust.js",
   "dependencies": {
-    "@dust-defi/api": "^1.1.0",
-    "@dust-defi/type-definitions": "^1.1.0",
+    "@dust-defi/api": "^1.1.1",
+    "@dust-defi/type-definitions": "^1.1.1",
     "@polkadot/api": "~6.4.2",
     "@polkadot/types": "~6.4.2",
     "@types/events": "^3.0.0",

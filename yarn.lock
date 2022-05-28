@@ -1473,24 +1473,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dust-defi/api-derive@^1.1.0, @dust-defi/api-derive@workspace:packages/api-derive":
+"@dust-defi/api-derive@^1.1.1, @dust-defi/api-derive@workspace:packages/api-derive":
   version: 0.0.0-use.local
   resolution: "@dust-defi/api-derive@workspace:packages/api-derive"
   dependencies:
     "@babel/runtime": ^7.10.2
-    "@dust-defi/types": ^1.1.0
+    "@dust-defi/types": ^1.1.1
     "@open-web3/orml-types": ^1.0.1
     "@polkadot/api-derive": ~6.4.2
   languageName: unknown
   linkType: soft
 
-"@dust-defi/api@^1.1.0, @dust-defi/api@workspace:packages/api":
+"@dust-defi/api@^1.1.1, @dust-defi/api@workspace:packages/api":
   version: 0.0.0-use.local
   resolution: "@dust-defi/api@workspace:packages/api"
   dependencies:
     "@babel/runtime": ^7.10.2
-    "@dust-defi/api-derive": ^1.1.0
-    "@dust-defi/types": ^1.1.0
+    "@dust-defi/api-derive": ^1.1.1
+    "@dust-defi/types": ^1.1.1
     "@open-web3/orml-api-derive": ^1.0.1
     "@polkadot/api": ~6.4.2
     "@polkadot/rpc-core": ~6.4.2
@@ -1513,8 +1513,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@dust-defi/sdk-core@workspace:packages/sdk-core"
   dependencies:
-    "@dust-defi/api": ^1.1.0
-    "@dust-defi/type-definitions": ^1.1.0
+    "@dust-defi/api": ^1.1.1
+    "@dust-defi/type-definitions": ^1.1.1
     "@polkadot/api": ~6.4.2
     "@polkadot/types": ~6.4.2
     "@types/events": ^3.0.0
@@ -1525,7 +1525,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@dust-defi/type-definitions@^1.1.0, @dust-defi/type-definitions@workspace:packages/type-definitions":
+"@dust-defi/type-definitions@^1.1.1, @dust-defi/type-definitions@workspace:packages/type-definitions":
   version: 0.0.0-use.local
   resolution: "@dust-defi/type-definitions@workspace:packages/type-definitions"
   dependencies:
@@ -1533,7 +1533,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@dust-defi/types@^1.1.0, @dust-defi/types@workspace:packages/types":
+"@dust-defi/types@^1.1.1, @dust-defi/types@workspace:packages/types":
   version: 0.0.0-use.local
   resolution: "@dust-defi/types@workspace:packages/types"
   dependencies:

@@ -1,6 +1,6 @@
 {
   "name": "@dust-defi/api-derive",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Additional polkadot.js derives for Dust Chain",
   "main": "index.js",
   "author": "Reef Developers",
@@ -16,7 +16,7 @@
   "homepage": "https://github.com/dustprotocol/dust.js",
   "dependencies": {
     "@babel/runtime": "^7.10.2",
-    "@dust-defi/types": "^1.1.0",
+    "@dust-defi/types": "^1.1.1",
     "@open-web3/orml-types": "^1.0.1",
     "@polkadot/api-derive": "~6.4.2"
   }
