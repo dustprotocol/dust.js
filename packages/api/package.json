@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": "https://github.com/dustprotocol/dust.js.git",
   "bugs": {
