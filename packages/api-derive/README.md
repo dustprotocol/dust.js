@@ -1,3 +1,3 @@
-# @reef-defi/api-derive
+# @dust-defi/api-derive
 
-Additional polkadot.js derives for Reef Chain
+Additional polkadot.js derives for Dust Chain

@@ -1,12 +1,12 @@
 import { derive as ormlDerives } from '@open-web3/orml-api-derive';
-import { derive as acalaDerives } from '@reef-defi/api-derive';
+import { derive as acalaDerives } from '@dust-defi/api-derive';
 import {
   rpc as acalaRpc,
   types as acalaTypes,
   typesAlias as acalaTypesAlias,
   typesBundle as acalaTypesBundle,
   signedExtensions as acalaSignedExtensions
-} from '@reef-defi/types';
+} from '@dust-defi/types';
 import { ApiOptions } from '@polkadot/api/types';
 
 export const defaultOptions: ApiOptions = {

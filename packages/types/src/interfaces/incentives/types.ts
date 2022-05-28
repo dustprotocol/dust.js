@@ -1,8 +1,8 @@
 // Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable */
 
+import type { CurrencyId } from '@dust-defi/types/interfaces/primitives';
 import type { Enum } from '@polkadot/types';
-import type { CurrencyId } from '@reef-defi/types/interfaces/primitives';
 
 /** @name PoolId */
 export interface PoolId extends Enum {

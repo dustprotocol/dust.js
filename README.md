@@ -1,18 +1,18 @@
 ![license](https://img.shields.io/badge/License-Apache%202.0-blue?logo=apache&style=flat-square)
-[![npm](https://img.shields.io/npm/v/@reef-defi/api?logo=npm&style=flat-square)](https://www.npmjs.com/package/@reef-defi/api)
+[![npm](https://img.shields.io/npm/v/@dust-defi/api?logo=npm&style=flat-square)](https://www.npmjs.com/package/@dust-defi/api)
 
-# @reef-defi
+# @dust-defi
 
-This library provides additional typing information for user to access Reef Chain by using [polkadot.js](https://github.com/polkadot-js/api).
+This library provides additional typing information for user to access Dust Chain by using [polkadot.js](https://github.com/polkadot-js/api).
 
 # Getting Started
 
-More documentation and examples on [wiki](https://docs.reef.finance/).
+More documentation and examples on [wiki](https://docs.dust.llc/).
 
 - Install dependencies
 
 ```bash
-yarn add @polkadot/api @reef-defi/api@beta
+yarn add @polkadot/api @dust-defi/api@beta
 ```
 
 - Create API instance
@@ -20,10 +20,10 @@ yarn add @polkadot/api @reef-defi/api@beta
 ```ts
 import { ApiPromise } from '@polkadot/api';
 import { WsProvider } from '@polkadot/rpc-provider';
-import { options } from '@reef-defi/api';
+import { options } from '@dust-defi/api';
 
 async function main() {
-    const provider = new WsProvider('wss://rpc-testnet.reefscan.com/ws');
+    const provider = new WsProvider('wss://rpc-testnet-scan.dust.llc/ws');
     const api = new ApiPromise(options({ provider }));
     await api.isReady;
 
@@ -46,8 +46,8 @@ console.log(data.toHuman())
 - [api](./packages/api)
   - Contains necessary options to create a polkadot.js API instance
 - [api-derive](./packages/api-derive)
-  - Additional polkadot.js derives for Reef Chain
+  - Additional polkadot.js derives for Dust Chain
 - [app-util](./packages/app-util)
-  - Utilities to work with Reef Chain
+  - Utilities to work with Dust Chain
 - [types](./packages/types)
-  - Polkadot.js type definations for Reef Chain
+  - Polkadot.js type definations for Dust Chain

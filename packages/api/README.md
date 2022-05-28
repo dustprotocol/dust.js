@@ -1,3 +1,3 @@
-# @reef-defi/api
+# @dust-defi/api
 
 Contains necessary options to create a polkadot.js API instance

@@ -8,8 +8,8 @@ export default {
     Share: 'u128',
     TokenSymbol: {
       _enum: {
-        REEF: 0,
-        RUSD: 1
+        DUST: 0,
+        USDD: 1
       }
     },
     CurrencyId: {

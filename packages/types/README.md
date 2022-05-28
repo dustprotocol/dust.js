@@ -1,3 +1,3 @@
-# @reef-defi/types
+# @dust-defi/types
 
-Polkadot.js type definations for Reef Chain
+Polkadot.js type definations for Dust Chain

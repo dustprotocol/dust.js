@@ -20,11 +20,11 @@ describe('token', () => {
   });
 
   test('fromCurrencyId set default token decimal should work', () => {
-    const mockREEF = { asToken: { toString: () => 'REEF' }, isToken: true };
-    const mockRUSD = { asToken: { toString: () => 'RUSD' }, isToken: true };
+    const mockDUST = { asToken: { toString: () => 'DUST' }, isToken: true };
+    const mockUSDD = { asToken: { toString: () => 'USDD' }, isToken: true };
 
-    expect(Token.fromCurrencyId(mockREEF as any).decimal).toEqual(18);
-    expect(Token.fromCurrencyId(mockRUSD as any).decimal).toEqual(18);
+    expect(Token.fromCurrencyId(mockDUST as any).decimal).toEqual(18);
+    expect(Token.fromCurrencyId(mockUSDD as any).decimal).toEqual(18);
   });
 
   test('toChainData should work', () => {
@@ -44,10 +44,10 @@ describe('token', () => {
   });
 
   test('sort tokens should work', () => {
-    const reef = new Token({ name: 'REEF', symbol: 'REEF', chain: 'maldives', decimal: 18 });
-    const rusd = new Token({ name: 'RUSD', symbol: 'RUSD', chain: 'maldives', decimal: 18 });
+    const dust = new Token({ name: 'DUST', symbol: 'DUST', chain: 'maldives', decimal: 18 });
+    const usdd = new Token({ name: 'USDD', symbol: 'USDD', chain: 'maldives', decimal: 18 });
 
-    expect(Token.sort(reef, rusd)).toEqual([reef, rusd]);
-    expect(Token.sort(rusd, reef)).toEqual([reef, rusd]);
+    expect(Token.sort(dust, usdd)).toEqual([dust, usdd]);
+    expect(Token.sort(usdd, dust)).toEqual([dust, usdd]);
   });
 });

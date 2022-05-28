@@ -1,12 +1,12 @@
 // Auto-generated via `yarn polkadot-types-from-chain`, do not edit
 /* eslint-disable */
 
+import type { CurrencyId } from '@dust-defi/types/interfaces/primitives';
+import type { AccountId, Balance } from '@dust-defi/types/interfaces/runtime';
 import type { ApiTypes } from '@polkadot/api/types';
 import type { Vec } from '@polkadot/types';
 import type { AccountData, BalanceLock } from '@polkadot/types/interfaces/balances';
 import type { Observable } from '@polkadot/types/types';
-import type { CurrencyId } from '@reef-defi/types/interfaces/primitives';
-import type { AccountId, Balance } from '@reef-defi/types/interfaces/runtime';
 
 declare module '@polkadot/api/types/storage' {
   export interface AugmentedQueries<ApiType> {

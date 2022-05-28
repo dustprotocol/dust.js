@@ -10,46 +10,46 @@
     "baseUrl": ".",
     "resolveJsonModule": true,
     "paths": {
-      "@reef-defi/api": [
+      "@dust-defi/api": [
         "packages/api/src"
       ],
-      "@reef-defi/api/*": [
+      "@dust-defi/api/*": [
         "packages/api/src/*"
       ],
-      "@reef-defi/types": [
+      "@dust-defi/types": [
         "packages/types/src"
       ],
-      "@reef-defi/types/*": [
+      "@dust-defi/types/*": [
         "packages/types/src/*"
       ],
-      "@reef-defi/api-derive": [
+      "@dust-defi/api-derive": [
         "packages/api-derive/src"
       ],
-      "@reef-defi/api-derive/*": [
+      "@dust-defi/api-derive/*": [
         "packages/api-derive/src/*"
       ],
-      "@reef-defi/type-definitions": [
+      "@dust-defi/type-definitions": [
         "packages/type-definitions/src"
       ],
-      "@reef-defi/type-definitions/*": [
+      "@dust-defi/type-definitions/*": [
         "packages/type-definitions/src/*"
       ],
-      "@reef-defi/sdk-core": [
+      "@dust-defi/sdk-core": [
         "packages/sdk-core/src"
       ],
-      "@reef-defi/sdk-core/*": [
+      "@dust-defi/sdk-core/*": [
         "packages/sdk-core/src/*"
       ],
-      "@reef-defi/sdk-swap": [
+      "@dust-defi/sdk-swap": [
         "packages/sdk-swap/src"
       ],
-      "@reef-defi/sdk-swap/*": [
+      "@dust-defi/sdk-swap/*": [
         "packages/sdk-swap/src/*"
       ],
-      "@reef-defi/sdk-loan": [
+      "@dust-defi/sdk-loan": [
         "packages/sdk-loan/src"
       ],
-      "@reef-defi/sdk-loan/*": [
+      "@dust-defi/sdk-loan/*": [
         "packages/sdk-loan/src/*"
       ],
     },

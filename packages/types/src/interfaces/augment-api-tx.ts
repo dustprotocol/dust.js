@@ -1,12 +1,12 @@
 // Auto-generated via `yarn polkadot-types-from-chain`, do not edit
 /* eslint-disable */
 
+import type { AmountOf, CurrencyIdOf } from '@dust-defi/types/interfaces/primitives';
+import type { BalanceOf, Call, LookupSource } from '@dust-defi/types/interfaces/runtime';
 import type { ApiTypes, SubmittableExtrinsic } from '@polkadot/api/types';
 import type { Compact } from '@polkadot/types';
 import type { Extrinsic } from '@polkadot/types/interfaces/extrinsics';
 import type { AnyNumber } from '@polkadot/types/types';
-import type { AmountOf, CurrencyIdOf } from '@reef-defi/types/interfaces/primitives';
-import type { BalanceOf, Call, LookupSource } from '@reef-defi/types/interfaces/runtime';
 
 declare module '@polkadot/api/types/submittable' {
   export interface AugmentedSubmittables<ApiType> {
