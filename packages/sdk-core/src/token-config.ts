@@ -10,14 +10,14 @@ interface TokenConfigData {
 const config: TokenConfigData[] = [
   {
     chain: 'maldives',
-    name: 'REEF',
-    symbol: 'REEF',
+    name: 'DUST',
+    symbol: 'DUST',
     decimal: 18
   },
   {
     chain: 'maldives',
-    name: 'Reef Dollar',
-    symbol: 'RUSD',
+    name: 'Dust Dollar',
+    symbol: 'USDD',
     decimal: 18
   }
 ];

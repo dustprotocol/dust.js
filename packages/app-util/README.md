@@ -1,3 +1,3 @@
-# @reef-defi/app-util
+# @dust-defi/app-util
 
-Utilities to work with Reef Chain
+Utilities to work with Dust Chain

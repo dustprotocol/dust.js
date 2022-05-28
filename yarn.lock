@@ -2227,50 +2227,50 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reef-defi/api-derive@^1.1.0, @reef-defi/api-derive@workspace:packages/api-derive":
+"@dust-defi/api-derive@^1.1.0, @dust-defi/api-derive@workspace:packages/api-derive":
   version: 0.0.0-use.local
-  resolution: "@reef-defi/api-derive@workspace:packages/api-derive"
+  resolution: "@dust-defi/api-derive@workspace:packages/api-derive"
   dependencies:
     "@babel/runtime": ^7.10.2
     "@open-web3/orml-types": ^1.0.1
     "@polkadot/api-derive": ~6.4.2
-    "@reef-defi/types": ^1.1.0
+    "@dust-defi/types": ^1.1.0
   languageName: unknown
   linkType: soft
 
-"@reef-defi/api@^1.1.0, @reef-defi/api@workspace:packages/api":
+"@dust-defi/api@^1.1.0, @dust-defi/api@workspace:packages/api":
   version: 0.0.0-use.local
-  resolution: "@reef-defi/api@workspace:packages/api"
+  resolution: "@dust-defi/api@workspace:packages/api"
   dependencies:
     "@babel/runtime": ^7.10.2
     "@open-web3/orml-api-derive": ^1.0.1
     "@polkadot/api": ~6.4.2
     "@polkadot/rpc-core": ~6.4.2
-    "@reef-defi/api-derive": ^1.1.0
-    "@reef-defi/types": ^1.1.0
+    "@dust-defi/api-derive": ^1.1.0
+    "@dust-defi/types": ^1.1.0
   peerDependencies:
     "@polkadot/api": ~6.4.2
     "@polkadot/types": ~6.4.2
   languageName: unknown
   linkType: soft
 
-"@reef-defi/app-util@workspace:packages/app-util":
+"@dust-defi/app-util@workspace:packages/app-util":
   version: 0.0.0-use.local
-  resolution: "@reef-defi/app-util@workspace:packages/app-util"
+  resolution: "@dust-defi/app-util@workspace:packages/app-util"
   dependencies:
     "@babel/runtime": ^7.10.2
     bignumber.js: ^9.0.0
   languageName: unknown
   linkType: soft
 
-"@reef-defi/sdk-core@workspace:packages/sdk-core":
+"@dust-defi/sdk-core@workspace:packages/sdk-core":
   version: 0.0.0-use.local
-  resolution: "@reef-defi/sdk-core@workspace:packages/sdk-core"
+  resolution: "@dust-defi/sdk-core@workspace:packages/sdk-core"
   dependencies:
     "@polkadot/api": ~6.4.2
     "@polkadot/types": ~6.4.2
-    "@reef-defi/api": ^1.1.0
-    "@reef-defi/type-definitions": ^1.1.0
+    "@dust-defi/api": ^1.1.0
+    "@dust-defi/type-definitions": ^1.1.0
     "@types/events": ^3.0.0
     "@types/lodash": ^4.14.161
     bignumber.js: ^9.0.0
@@ -2279,17 +2279,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@reef-defi/type-definitions@^1.1.0, @reef-defi/type-definitions@workspace:packages/type-definitions":
+"@dust-defi/type-definitions@^1.1.0, @dust-defi/type-definitions@workspace:packages/type-definitions":
   version: 0.0.0-use.local
-  resolution: "@reef-defi/type-definitions@workspace:packages/type-definitions"
+  resolution: "@dust-defi/type-definitions@workspace:packages/type-definitions"
   dependencies:
     "@open-web3/orml-type-definitions": ^1.0.1
   languageName: unknown
   linkType: soft
 
-"@reef-defi/types@^1.1.0, @reef-defi/types@workspace:packages/types":
+"@dust-defi/types@^1.1.0, @dust-defi/types@workspace:packages/types":
   version: 0.0.0-use.local
-  resolution: "@reef-defi/types@workspace:packages/types"
+  resolution: "@dust-defi/types@workspace:packages/types"
   dependencies:
     "@babel/runtime": ^7.10.2
     "@open-web3/api-mobx": ^1.0.1

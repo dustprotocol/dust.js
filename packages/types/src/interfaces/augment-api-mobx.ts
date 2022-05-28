@@ -54,9 +54,9 @@ import type {
   Phase
 } from '@polkadot/types/interfaces/system';
 import type { Multiplier } from '@polkadot/types/interfaces/txpayment';
-import type { CodeInfo, EvmAddress } from '@reef-defi/types/interfaces/evm';
-import type { CommitmentOf, Era } from '@reef-defi/types/interfaces/poc';
-import type { CurrencyId } from '@reef-defi/types/interfaces/primitives';
+import type { CodeInfo, EvmAddress } from '@dust-defi/types/interfaces/evm';
+import type { CommitmentOf, Era } from '@dust-defi/types/interfaces/poc';
+import type { CurrencyId } from '@dust-defi/types/interfaces/primitives';
 import type {
   AccountId,
   AccountIndex,
@@ -71,7 +71,7 @@ import type {
   Releases,
   Slot,
   ValidatorId
-} from '@reef-defi/types/interfaces/runtime';
+} from '@dust-defi/types/interfaces/runtime';
 import type { BaseStorageType, StorageMap } from '@open-web3/api-mobx';
 
 export interface StorageType extends BaseStorageType {

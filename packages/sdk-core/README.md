@@ -1,1 +1,1 @@
-# @reef-defi/sdk-core
+# @dust-defi/sdk-core

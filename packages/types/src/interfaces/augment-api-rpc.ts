@@ -21,8 +21,8 @@ import type { RpcMethods } from '@polkadot/types/interfaces/rpc';
 import type { ReadProof, RuntimeVersion, TraceBlockResponse } from '@polkadot/types/interfaces/state';
 import type { ApplyExtrinsicResult, ChainProperties, ChainType, Health, NetworkState, NodeRole, PeerInfo, SyncState } from '@polkadot/types/interfaces/system';
 import type { AnyNumber, Codec, IExtrinsic, ITuple, Observable } from '@polkadot/types/types';
-import type { CallRequest, EstimateResourcesResponse } from '@reef-defi/types/interfaces/evm';
-import type { AccountId, BlockNumber, H160, H256, H64, Hash, Header, Index, Justification, KeyValue, OracleKey, SignedBlock, StorageData } from '@reef-defi/types/interfaces/runtime';
+import type { CallRequest, EstimateResourcesResponse } from '@dust-defi/types/interfaces/evm';
+import type { AccountId, BlockNumber, H160, H256, H64, Hash, Header, Index, Justification, KeyValue, OracleKey, SignedBlock, StorageData } from '@dust-defi/types/interfaces/runtime';
 
 declare module '@polkadot/rpc-core/types.jsonrpc' {
   export interface RpcInterface {

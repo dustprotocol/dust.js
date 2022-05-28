@@ -3,7 +3,7 @@ import { memo } from '@polkadot/api-derive/util';
 import { Observable, of } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { Vec } from '@polkadot/types';
-import { CurrencyId } from '@reef-defi/types/interfaces';
+import { CurrencyId } from '@dust-defi/types/interfaces';
 
 function getNativeCurrencyId(api: ApiInterfaceRx): Observable<CurrencyId> {
   return api.rpc.system.properties().pipe(

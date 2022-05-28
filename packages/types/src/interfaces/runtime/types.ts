@@ -7,7 +7,7 @@ import type { AuthorityId } from '@polkadot/types/interfaces/consensus';
 import type { Signature } from '@polkadot/types/interfaces/extrinsics';
 import type { SystemOrigin } from '@polkadot/types/interfaces/system';
 import type { ITuple } from '@polkadot/types/types';
-import type { AuthoritysOriginId, CurrencyId } from '@reef-defi/types/interfaces/primitives';
+import type { AuthoritysOriginId, CurrencyId } from '@dust-defi/types/interfaces/primitives';
 
 /** @name AccountId */
 export interface AccountId extends AccountId32 {}

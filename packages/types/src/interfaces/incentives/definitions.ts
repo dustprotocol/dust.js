@@ -1,4 +1,4 @@
 import { Definitions } from '@polkadot/types/types';
-import incentives from '@reef-defi/type-definitions/incentives';
+import incentives from '@dust-defi/type-definitions/incentives';
 
 export default incentives as Definitions;

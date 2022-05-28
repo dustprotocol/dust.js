@@ -5,17 +5,17 @@ import type { ApiTypes } from '@polkadot/api/types';
 import type { Vec } from '@polkadot/types';
 import type { AccountData, BalanceLock } from '@polkadot/types/interfaces/balances';
 import type { Observable } from '@polkadot/types/types';
-import type { CurrencyId } from '@reef-defi/types/interfaces/primitives';
-import type { AccountId, Balance } from '@reef-defi/types/interfaces/runtime';
+import type { CurrencyId } from '@dust-defi/types/interfaces/primitives';
+import type { AccountId, Balance } from '@dust-defi/types/interfaces/runtime';
 
 declare module '@polkadot/api/types/storage' {
   export interface AugmentedQueries<ApiType> {
     tokens: {
       /**
        * The balance of a token type under an account.
-       * 
+       *
        * NOTE: If the total is ever zero, decrease account ref account.
-       * 
+       *
        * NOTE: This is only used in the case that this module is used to store
        * balances.
        **/

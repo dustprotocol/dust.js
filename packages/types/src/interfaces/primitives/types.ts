@@ -3,7 +3,7 @@
 
 import type { Enum, i128, u128, u32 } from '@polkadot/types';
 import type { ITuple } from '@polkadot/types/types';
-import type { EvmAddress } from '@reef-defi/types/interfaces/evm';
+import type { EvmAddress } from '@dust-defi/types/interfaces/evm';
 
 /** @name Amount */
 export interface Amount extends i128 {}
@@ -40,8 +40,8 @@ export interface Share extends u128 {}
 
 /** @name TokenSymbol */
 export interface TokenSymbol extends Enum {
-  readonly isReef: boolean;
-  readonly isRusd: boolean;
+  readonly isDust: boolean;
+  readonly isUsdd: boolean;
 }
 
 /** @name TradingPair */
